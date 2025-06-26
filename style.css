@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+    --primary: #007BFF; /* Blue */
+    --secondary: #ffffff; /* White */
+    --text-dark: #333;
+    --text-light: #f9f9f9;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--secondary);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: var(--primary);
+    color: var(--secondary);
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #007BFF, #00aaff);
+    color: var(--text-light);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Features Section */
+.features {
+    padding: 60px 0;
+    background-color: #f5faff;
+}
+
+.feature-box {
+    background-color: var(--secondary);
+    padding: 20px;
+    margin: 10px;
+    border-left: 5px solid var(--primary);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.feature-box h3 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: var(--secondary);
+    text-align: center;
+    padding: 20px 0;
+}
