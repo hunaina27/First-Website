@@ -7,7 +7,7 @@
 
 /* Colors */
 :root {
-    --primary: #007BFF; /* Blue */
+    --primary:#003366; /* Blue */
     --secondary: #ffffff; /* White */
     --text-dark: #333;
     --text-light: #f9f9f9;
@@ -55,7 +55,7 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to right, #007BFF, #00aaff);
+    background: linear-gradient(to right,#0a55a0, #4995e0);
     color: var(--text-light);
     padding: 100px 0;
     text-align: center;
